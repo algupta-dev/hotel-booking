@@ -1,0 +1,22 @@
+.pageTitle, .active {
+    background: #9ddef0;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: black;
+    display: inline-flex;
+    /* text-align: center; */
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+  .pagination{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .active{
+    background: dodgerblue;
+  }
